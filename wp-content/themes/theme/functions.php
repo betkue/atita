@@ -35,6 +35,19 @@ function taxica_enqueue_scripts() {
    
     wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js', array(), null, true);
 }
+function get_image_url($atts) {
+    $atts = shortcode_atts(array(
+        'path' => ''
+    ), $atts);
+    
+    // Définit la racine de l'URL d'image
+    $base_url = get_template_directory_uri() . '/assets/img/';
+    
+    // Retourne l'URL complète sans ajouter de / à la fin
+    return esc_url(rtrim($base_url, '/') . '/' . ltrim($atts['path'], '/'));
+}
+add_shortcode('image_url', 'get_image_url');
+
 
 // Ajouter les styles et scripts dans WordPress
 add_action('wp_enqueue_scripts', 'taxica_enqueue_styles');
