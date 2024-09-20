@@ -6,7 +6,7 @@
                  <div class="col-md-6 col-lg-4">
                      <div class="footer-widget-box about-us">
                          <a href="#" class="footer-logo">
-                             <img src="assets/img/logo/logo.png" alt="">
+                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo.png" alt="">
                          </a>
                          <p class="mb-3">
                              We are many variations of passages available but the majority have suffered alteration
@@ -95,6 +95,7 @@
 
 
  <!-- js -->
+<!-- 
  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/3.11.4/modernizr.min.js"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
@@ -110,6 +111,7 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/nice-select/1.1.0/jquery.nice-select.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.0/wow.min.js"></script>
 
+-->
  <?php wp_footer(); ?>
 
  </body>

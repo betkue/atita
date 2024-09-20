@@ -69,7 +69,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container position-relative">
                     <a class="navbar-brand" href="index.html">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo.png" alt="logo"> 
+                        <img  src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo.png" alt="logo" width="2" height="2"> 
                     </a>
                     <div class="mobile-menu-right">
                         <div class="search-btn">
@@ -82,81 +82,19 @@
                     </div>
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Home</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="index.html">Home Page 01</a></li>
-                                    <li><a class="dropdown-item" href="index-2.html">Home Page 02</a></li>
-                                    <li><a class="dropdown-item" href="index-3.html">Home Page 03</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Taxi</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="taxi.html">Taxi</a></li>
-                                    <li><a class="dropdown-item" href="taxi-single.html">Taxi Single</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Taxi</a>
+                                
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Service</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="service.html">Service</a></li>
-                                    <li><a class="dropdown-item" href="service-single.html">Service Single</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Service</a>
+                                
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="about.html">About Us</a></li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">My Account</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
-                                            <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
-                                            <li><a class="dropdown-item" href="profile-booking.html">My Booking</a></li>
-                                            <li><a class="dropdown-item" href="profile-cancel-booking.html">Cancel
-                                                    Booking</a></li>
-                                            <li><a class="dropdown-item" href="profile-payment.html">Payment History</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="profile-setting.html">Settings</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                            <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                            <li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Driver</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="driver.html">Driver</a></li>
-                                            <li><a class="dropdown-item" href="driver-single.html">Driver Single</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item" href="team.html">Our Team</a></li>
-                                    <li><a class="dropdown-item" href="book-ride.html">Book A Ride</a></li>
-                                    <li><a class="dropdown-item" href="taxi-rate.html">Our Taxi Rate</a></li>
-                                    <li><a class="dropdown-item" href="faq.html">Faq</a></li>
-                                    <li><a class="dropdown-item" href="testimonial.html">Testimonials</a></li>
-                                    <li><a class="dropdown-item" href="404.html">404 Error</a></li>
-                                    <li><a class="dropdown-item" href="coming-soon.html">Coming Soon</a></li>
-                                    <li><a class="dropdown-item" href="terms.html">Terms Of Service</a></li>
-                                    <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-                                    <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-                                </ul>
-                            </li>
+
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                         <div class="nav-right">
