@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,21 +44,23 @@
                                         info@example.com</a></li>
                                 <li><a href="tel:+21236547898"><i class="far fa-phone-volume"></i> +2 123 654 7898</a>
                                 </li>
-                                <li><a href="#"><i class="far fa-alarm-clock"></i> Sun - Fri (08AM - 10PM)</a></li>
+                                <li><a href='<?php echo home_url(); ?>'><i class="far fa-alarm-clock"></i> Sun - Fri (08AM - 10PM)</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="header-top-right">
+                        <!--
                         <div class="header-top-link">
-                            <a href="#"><i class="far fa-arrow-right-to-bracket"></i> Login</a>
-                            <a href="#"><i class="far fa-user-vneck"></i> Register</a>
+                            <a href='<?php echo home_url(); ?>'><i class="far fa-arrow-right-to-bracket"></i> Login</a>
+                            <a href='<?php echo home_url(); ?>'><i class="far fa-user-vneck"></i> Register</a>
                         </div>
+-->
                         <div class="header-top-social">
                             <span>Follow Us: </span>
-                            <a href="#"><i class="fab fa-facebook"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href='<?php echo home_url(); ?>'><i class="fab fa-facebook"></i></a>
+                            <a href='<?php echo home_url(); ?>'><i class="fab fa-twitter"></i></a>
+                            <a href='<?php echo home_url(); ?>'><i class="fab fa-instagram"></i></a>
+                            <a href='<?php echo home_url(); ?>'><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -68,8 +69,8 @@
         <div class="main-navigation">
             <nav class="navbar navbar-expand-lg">
                 <div class="container position-relative">
-                    <a class="navbar-brand" href="index.html">
-                        <img  src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo.png" alt="logo" width="2" height="2"> 
+                    <a class="navbar-brand" href='<?php echo home_url(); ?>'>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo.png" alt="logo" width="2" height="2">
                     </a>
                     <div class="mobile-menu-right">
                         <div class="search-btn">
@@ -83,42 +84,17 @@
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href='<?php echo home_url(); ?>'>Acceuil</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href='<?php echo home_url(); ?>/restaurants'>Restaurants</a></li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Taxi</a>
-                                
+                                <a class="nav-link" href='<?php echo home_url(); ?>/hotels'>Hôtels</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Service</a>
-                                
-                            </li>
-
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href='<?php echo home_url(); ?>/contact'>Contact</a></li>
                         </ul>
-                        <div class="nav-right">
-                            <div class="search-btn">
-                                <button type="button" class="nav-right-link"><i class="far fa-search"></i></button>
-                            </div>
-                            <div class="nav-right-btn mt-2">
-                                <a href="#" class="theme-btn"><span class="fas fa-taxi"></span>Book A Taxi</a>
-                            </div>
-                            <div class="sidebar-btn">
-                                <button type="button" class="nav-right-link"><i class="far fa-bars-filter"></i></button>
-                            </div>
-                        </div>
+
                     </div>
-                    <!-- search area -->
-                    <div class="search-area">
-                        <form action="#">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Type Keyword...">
-                                <button type="submit" class="search-icon-btn"><i class="far fa-search"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- search area end -->
+
                 </div>
             </nav>
         </div>

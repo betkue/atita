@@ -5,7 +5,7 @@
              <div class="row footer-widget-wrapper pt-120 pb-70">
                  <div class="col-md-6 col-lg-4">
                      <div class="footer-widget-box about-us">
-                         <a href="#" class="footer-logo">
+                         <a href='<?php echo home_url(); ?>' class="footer-logo">
                              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo.png" alt="">
                          </a>
                          <p class="mb-3">
@@ -24,12 +24,10 @@
                      <div class="footer-widget-box list">
                          <h4 class="footer-widget-title">Quick Links</h4>
                          <ul class="footer-list">
-                             <li><a href="#"><i class="fas fa-caret-right"></i> About Us</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Update News</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Testimonials</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Terms Of Service</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Privacy policy</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Our Drivers</a></li>
+                             <li><a href='<?php echo home_url(); ?>'><i class="fas fa-caret-right"></i> Acceuil</a></li>
+                             <li><a href='<?php echo home_url(); ?>/restaurants'><i class="fas fa-caret-right"></i> Restaurants</a></li>
+                             <li><a href='<?php echo home_url(); ?>/hotels'><i class="fas fa-caret-right"></i> Hôtels</a></li>
+                             <li><a href='<?php echo home_url(); ?>/contact'><i class="fas fa-caret-right"></i> Contact</a></li>
                          </ul>
                      </div>
                  </div>
@@ -37,18 +35,13 @@
                      <div class="footer-widget-box list">
                          <h4 class="footer-widget-title">Support Center</h4>
                          <ul class="footer-list">
-                             <li><a href="#"><i class="fas fa-caret-right"></i> FAQ's</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Affiliates</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Booking Tips</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Book A Ride</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Contact Us</a></li>
-                             <li><a href="#"><i class="fas fa-caret-right"></i> Sitemap</a></li>
                          </ul>
                      </div>
                  </div>
                  <div class="col-md-6 col-lg-3">
                      <div class="footer-widget-box list">
                          <h4 class="footer-widget-title">Newsletter</h4>
+                         <!--
                          <div class="footer-newsletter">
                              <p>Subscribe Our Newsletter To Get Latest Update And News</p>
                              <div class="subscribe-form">
@@ -60,7 +53,9 @@
                                  </form>
                              </div>
                          </div>
+-->
                      </div>
+
                  </div>
              </div>
          </div>
@@ -70,15 +65,15 @@
              <div class="row">
                  <div class="col-md-6 align-self-center">
                      <p class="copyright-text">
-                         &copy; Copyright <span id="date"></span> <a href="#"> Taxica </a> All Rights Reserved.
+                         &copy; Copyright <span id="date"></span> <a href='<?php echo home_url(); ?>'> Taxica </a> All Rights Reserved.
                      </p>
                  </div>
                  <div class="col-md-6 align-self-center">
                      <ul class="footer-social">
-                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                         <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                         <li><a href='<?php echo home_url(); ?>'><i class="fab fa-facebook-f"></i></a></li>
+                         <li><a href='<?php echo home_url(); ?>'><i class="fab fa-twitter"></i></a></li>
+                         <li><a href='<?php echo home_url(); ?>'><i class="fab fa-linkedin-in"></i></a></li>
+                         <li><a href='<?php echo home_url(); ?>'><i class="fab fa-youtube"></i></a></li>
                      </ul>
                  </div>
              </div>
@@ -90,7 +85,7 @@
 
 
  <!-- scroll-top -->
- <a href="#" id="scroll-top"><i class="far fa-arrow-up"></i></a>
+ <a href='<?php echo home_url(); ?>' id="scroll-top"><i class="far fa-arrow-up"></i></a>
  <!-- scroll-top end -->
 
 
