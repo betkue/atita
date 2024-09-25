@@ -8,21 +8,17 @@
                          <a href='<?php echo home_url(); ?>' class="footer-logo">
                              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo.png" alt="">
                          </a>
-                         <p class="mb-3">
-                             We are many variations of passages available but the majority have suffered alteration
-                             in some form by injected humour words believable.
-                         </p>
                          <ul class="footer-contact">
                              <li><a href="tel:+21236547898"><i class="far fa-phone"></i>+2 123 654 7898</a></li>
-                             <li><i class="far fa-map-marker-alt"></i>25/B Milford Road, New York</li>
+                             <li><i class="far fa-map-marker-alt"></i>Gabon</li>
                              <li><a href="mailto:info@example.com"><i
-                                         class="far fa-envelope"></i>info@example.com</a></li>
+                                         class="far fa-envelope"></i>info@atita.com</a></li>
                          </ul>
                      </div>
                  </div>
                  <div class="col-md-6 col-lg-2">
                      <div class="footer-widget-box list">
-                         <h4 class="footer-widget-title">Quick Links</h4>
+                         <h4 class="footer-widget-title">Liens</h4>
                          <ul class="footer-list">
                              <li><a href='<?php echo home_url(); ?>'><i class="fas fa-caret-right"></i> Acceuil</a></li>
                              <li><a href='<?php echo home_url(); ?>/restaurants'><i class="fas fa-caret-right"></i> Restaurants</a></li>
@@ -33,7 +29,7 @@
                  </div>
                  <div class="col-md-6 col-lg-3">
                      <div class="footer-widget-box list">
-                         <h4 class="footer-widget-title">Support Center</h4>
+                         <h4 class="footer-widget-title">Support Tech</h4>
                          <ul class="footer-list">
                          </ul>
                      </div>
