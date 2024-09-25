@@ -36,6 +36,7 @@
         <!-- top header -->
         <div class="header-top">
             <div class="container">
+    <!--
                 <div class="header-top-wrapper">
                     <div class="header-top-left">
                         <div class="header-top-contact">
@@ -49,12 +50,12 @@
                         </div>
                     </div>
                     <div class="header-top-right">
-                        <!--
+                        
                         <div class="header-top-link">
                             <a href='<?php echo home_url(); ?>'><i class="far fa-arrow-right-to-bracket"></i> Login</a>
                             <a href='<?php echo home_url(); ?>'><i class="far fa-user-vneck"></i> Register</a>
                         </div>
--->
+
                         <div class="header-top-social">
                             <span>Follow Us: </span>
                             <a href='<?php echo home_url(); ?>'><i class="fab fa-facebook"></i></a>
@@ -63,9 +64,9 @@
                             <a href='<?php echo home_url(); ?>'><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
-        </div>
+        </div> 
         <div class="main-navigation">
             <nav class="navbar navbar-expand-lg">
                 <div class="container position-relative">
